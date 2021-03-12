@@ -35,8 +35,8 @@ $ python MainCode.py
 - **Input Annotation File 1**: Select the xml file containing glomerulus annotations (either manually annotated or automatically extracted using the HAIL pipeline (...) 
 - **Model**: Select the trained model
 - **Model chkpt**: Select the latest checkpoint of trained model
-- **Model idx**: Select the index file of trained model
-- **Output Annotation File **: Select the name of output xml file (marking podocytes)
+- **Model idx**: Select the index file of trained model 
+- **Output Annotation File**: Select the name of output xml file (marking podocytes)
 
 
 **PodoSighter_pix2pix**
@@ -46,7 +46,7 @@ $ python MainCode.py
 - **Input Annotation File 1**: Select the xml file containing glomerulus annotations (either manually annotated or automatically extracted using the HAIL pipeline (...) 
 - **Trained Generator Model**: Select the trained generator model
 - **Trained Discrimminator Model**: Select the trained discriminator model
-- **Output Annotation File **: Select the name of output xml file (marking podocytes)
+- **Output Annotation File**: Select the name of output xml file (marking podocytes)
 
 
 
