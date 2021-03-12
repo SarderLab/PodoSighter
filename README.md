@@ -22,7 +22,7 @@ In order to run the PodoSighter plugin on your PAS-stained renal section, follow
 Once steps 1-3 are done, the pipeline can be implemented by executing the following code in the command line:
 
 ```
-$ python MainCode.py
+$ python PodoSighter.py
 ```
 
 ## Input/output parameters
