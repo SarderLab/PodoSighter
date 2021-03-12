@@ -63,7 +63,8 @@ Listed below are the different parameters and their definitions:
 - **watershed_thre**: This parameter sets the distance parameter for the watershed segmentation of segmented nuclei (ranging from 0 to 1).
 
 
-Listed below are the parameters we used for our study
+Listed below are the parameters we used for our study:
+
 
 +---------------------------+-------------+--------------------+------------------+---------------+-----------------+---------------+--------------------+
 | Dataset                   | species     | PASnucleiThreshold | gauss_filt_size  | disc_size     | resolution      | size_thre     | watershed_thre     |
@@ -86,3 +87,4 @@ Listed below are the parameters we used for our study
 +---------------------------+-------------+--------------------+------------------+---------------+-----------------+---------------+--------------------+
 
 
+m
