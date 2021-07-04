@@ -158,7 +158,7 @@ os.system(cmd5)
 '''Step 5: Output display'''
 '''==========================='''
 resdir_exact = vislogdir+"/raw_segmentation_results/"
-TP_HR= create_podocyte_Outxml_CNN(svsfile,xmlfile,crop_size,resdir_exact,PAS_nuc_thre,size_thre,gauss_filt_size,watershed_dist_thre,size_disc,resol)
+TP_HR= create_podocyte_Outxml_CNN(svsfile,xmlfile,crop_size,resdir_exact,PAS_nuc_thre,size_thre,gauss_filt_size,watershed_dist_thre,size_disc,resol,tissue_thickness,csv_file_name)
 
 from skimage import exposure
 
