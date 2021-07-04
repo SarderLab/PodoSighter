@@ -68,10 +68,10 @@ Listed below are the parameters we used for our study:
 
 | Dataset  | species | PASnucleiThreshold  | gauss_filt_size | disc_size  | resolution  | size_thre  | watershed_thre |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Mouse WT1 data            | mouse       | 0.5                | 5                | 6             | 0               | 400           | 0.2                |
-| Mouse p57 data            | mouse       | 0.5                | 5                | 6             | 0               | 400           | 0.2                |
-| Rat WT1 data              | rat         | 0.4                | 5                | 4             | 0               | 300           | 0.2                |
-| Rat p57 data              | rat         | 0.4                | 5                | 4             | 0               | 300           | 0.2                |
+| Mouse WT1 data            | mouse       | 0.5                | 5                | 6             | 0               | 1800           | 0.2                |
+| Mouse p57 data            | mouse       | 0.5                | 5                | 6             | 0               | 800           | 0.2                |
+| Rat WT1 data              | rat         | 0.4                | 5                | 4             | 0               | 400           | 0.2                |
+| Rat p57 data              | rat         | 0.4                | 5                | 4             | 0               | 400           | 0.2                |
 | Human autopsy WT1 data    | human       | 0.5                | 5                | 6             | 0               | 400           | 0.2                |
 | Human autopsy p57 data    | human       | 0.5                | 5                | 6             | 0               | 400           | 0.2                |
 | Human pediatric WT1 data  | human       | 0.4                | 5                | 6             | 0               | 400           | 0.2                |
