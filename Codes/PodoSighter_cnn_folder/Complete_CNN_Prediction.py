@@ -25,7 +25,8 @@ parser.add_argument('-A10','--resolut',type = int, metavar = '',required = True,
 parser.add_argument('-A11','--sz_thre',type = int, metavar = '',required = True,help = 'sz_thre')
 parser.add_argument('-A12','--watershed_thre',type = float, metavar = '',required = True,help = 'watershed_thre')
 parser.add_argument('-A13','--outxml1',type = str, metavar = '',required = True,help = 'outxml1')
-
+parser.add_argument('-A14','--tissue_thickness',type = float, metavar = '',required = True,help = 'Tissue thickness')#new
+parser.add_argument('-A15','--csvfilename',type = str, metavar = '',required = True,help = 'CSV file name')#new
 
 args = parser.parse_args()
 
@@ -42,6 +43,8 @@ size_disc = args.Disc_size
 resol = args.resolut
 size_thre = args.sz_thre
 watershed_dist_thre = args.watershed_thre
+tissue_thickness = args.tissue_thickness
+csv_file_name = args.csvfilename
 
 #shutil.rmtree(maintempfolder)
 #os.mkdir(maintempfolder)
