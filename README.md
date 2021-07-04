@@ -46,6 +46,7 @@ $ python PodoSighter.py
 - **Trained Generator Model**: Select the trained generator model
 - **Trained Discrimminator Model**: Select the trained discriminator model
 - **Output Annotation File**: Select the name of output xml file (marking podocytes)
+- **csv_file_name**: Select the name of the output csv file containing the podocyte counts, mean nuclear caliper diameters, true caliper diameters, correction factors, and podocyte volume densities (based on Wiggins method)
 
 
 
@@ -60,6 +61,7 @@ Listed below are the different parameters and their definitions:
 - **resolution**: This parameter can be used to specify if the analysis should be done in high resolution (0) or a downsampled (1) version of the WSI to save time. 
 - **size_thre**: This parameter is used to remove unwanted noise from the segmented nuclei.
 - **watershed_thre**: This parameter sets the distance parameter for the watershed segmentation of segmented nuclei (ranging from 0 to 1).
+- **Tissue thickness**: The tissue thickness in microns, as entered by the user.
 
 
 Listed below are the parameters we used for our study:
