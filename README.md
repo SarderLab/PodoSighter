@@ -30,10 +30,10 @@ $ python PodoSighter.py
 **PodoSighter_CNN**
 
 - **Data Folder**: Select a temporary folder location where the glomeruli can be cropped and tested on. This folder will automatically be deleted after analysis.
-- **Input Image**: Select the whole slide image (WSI) to be analyzed
-- **Input Annotation File 1**: Select the xml file containing glomerulus annotations (either manually annotated or automatically extracted using the HAIL pipeline (...) 
+- **Input PAS whole slide image**: Select the whole slide image (WSI) to be analyzed
+- **Input Glomerular Annotation File**: Select the xml file containing glomerulus annotations (either manually annotated or automatically extracted using the HAIL pipeline (...) 
 - **Model**: Select the trained model
-- **Model chkpt**: Select the latest checkpoint of trained model
+- **Model checkpoint**: Select the latest checkpoint of trained model
 - **Model idx**: Select the index file of trained model 
 - **Output Annotation File**: Select the name of output xml file (marking podocytes)
 - **Csv_file_name**: Select the name of the output csv file containing the podocyte counts, mean nuclear caliper diameters, true caliper diameters, correction factors, and podocyte volume densities (based on Wiggins method)
