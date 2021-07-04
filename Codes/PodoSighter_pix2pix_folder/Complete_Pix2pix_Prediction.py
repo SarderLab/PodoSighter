@@ -42,6 +42,8 @@ parser.add_argument('-A10','--resolut',type = int, metavar = '',required = True,
 parser.add_argument('-A11','--sz_thre',type = int, metavar = '',required = True,help = 'sz_thre')
 parser.add_argument('-A12','--watershed_thre',type = float, metavar = '',required = True,help = 'watershed_thre')
 parser.add_argument('-A13','--outxml1',type = str, metavar = '',required = True,help = 'outxml1')
+parser.add_argument('-A14','--tissue_thickness',type = float, metavar = '',required = True,help = 'Tissue thickness')#new
+parser.add_argument('-A15','--csvfilename',type = str, metavar = '',required = True,help = 'CSV file name')#new
 
 args = parser.parse_args()
 
@@ -59,6 +61,8 @@ gpu_id_use = args.gpu_id
 watershed_dist_thre= args.watershed_thre
 size_thre = args.sz_thre
 resol = args.resolut
+tissue_thickness = args.tissue_thickness#new
+csv_file_name = args.csvfilename#new
 
 print(maintempfolder)
 print(svs_file_name)
@@ -167,7 +171,7 @@ exit_code = call("python3 ./pix2pix/test.py --dataroot "+domABtemp+" --gpu_ids "
 '''==============================='''
 
 resdir_exact = Results_save_folder+Model_majorname+"/test_latest/images/"
-TP_HR= create_podocyte_Outxml_pix2pix(svsfile,xmlfile,crop_size,resdir_exact,PAS_nuc_thre,size_thre,gauss_filt_size,watershed_dist_thre,Disc_size,resol)
+TP_HR= create_podocyte_Outxml_pix2pix(svsfile,xmlfile,crop_size,resdir_exact,PAS_nuc_thre,size_thre,gauss_filt_size,watershed_dist_thre,Disc_size,resol,tissue_thickness,csv_file_name)#new
 
 from skimage import exposure
 
