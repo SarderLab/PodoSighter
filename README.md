@@ -36,7 +36,7 @@ $ python PodoSighter.py
 - **Model chkpt**: Select the latest checkpoint of trained model
 - **Model idx**: Select the index file of trained model 
 - **Output Annotation File**: Select the name of output xml file (marking podocytes)
-
+- **Csv_file_name**: Select the name of the output csv file containing the podocyte counts, mean nuclear caliper diameters, true caliper diameters, correction factors, and podocyte volume densities (based on Wiggins method)
 
 **PodoSighter_pix2pix**
 
@@ -46,7 +46,7 @@ $ python PodoSighter.py
 - **Trained Generator Model**: Select the trained generator model
 - **Trained Discrimminator Model**: Select the trained discriminator model
 - **Output Annotation File**: Select the name of output xml file (marking podocytes)
-- **csv_file_name**: Select the name of the output csv file containing the podocyte counts, mean nuclear caliper diameters, true caliper diameters, correction factors, and podocyte volume densities (based on Wiggins method)
+- **Csv_file_name**: Select the name of the output csv file containing the podocyte counts, mean nuclear caliper diameters, true caliper diameters, correction factors, and podocyte volume densities (based on Wiggins method)
 
 
 
